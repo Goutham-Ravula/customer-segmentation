@@ -1,4 +1,4 @@
-# Customer Classification Project
+# Customer Segmentation Project
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
