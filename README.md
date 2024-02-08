@@ -12,16 +12,16 @@ The project unfolds through a systematic evaluation of various machine learning 
 
 ## Dataset
 
-The primary dataset comprises eight key columns:
+This dataset comprises eight variables, each representing distinct aspects of the transactions:
 
-InvoiceNo: An integral, six-digit nominal code uniquely assigned to each transaction. Transactions beginning with the letter 'c' denote cancellations.
-StockCode: A five-digit integral nominal code uniquely assigned to each distinct product.
-Description: Nominal field indicating the name of the product.
-Quantity: Numeric field denoting the quantity of each product per transaction.
-InvoiceDate: Numeric field representing the date and time of each transaction generation.
-UnitPrice: Numeric field indicating the unit price of the product in sterling.
-CustomerID: Nominal, five-digit integral code uniquely assigned to each customer.
-Country: Nominal field specifying the name of the country where each customer resides.
+1. **InvoiceNo**: An integral, six-digit nominal code uniquely assigned to each transaction.
+2. **StockCode**: A five-digit integral nominal code uniquely assigned to each distinct product.
+3. **Description**: Nominal field indicating the name of the product.
+4. **Quantity**: Numeric field denoting the quantity of each product per transaction.
+5. **InvoiceDate**: Numeric field representing the date and time of each transaction generation.
+6. **UnitPrice**: Numeric field indicating the unit price of the product in sterling.
+7. **CustomerID**: Nominal, five-digit integral code uniquely assigned to each customer.
+8. **Country**: Nominal field specifying the name of the country where each customer resides
 
 ## Project Objectives
 
@@ -94,31 +94,31 @@ These preprocessing steps aimed to enhance the dataset's quality, create meaning
 
 ## Algorithms Used
 
-### Support Vector Machine (SVM)
+1. ### Support Vector Machine (SVM)
 
 The project begins with the Support Vector Classifier (SVC). Hyperparameter tuning is conducted using grid search to enhance classifier performance.
 
-### Logistic Regression
+2. ### Logistic Regression
 
 Utilizing logistic regression, the project explores hyperparameter tuning for optimal model performance.
 
-### k-Nearest Neighbors (kNN)
+3. ### k-Nearest Neighbors (kNN)
 
 The kNN classifier is employed with grid search to find the optimal number of neighbors for enhanced performance.
 
-### Decision Tree
+4. ### Decision Tree
 
 Decision tree classification is implemented with hyperparameter tuning to improve accuracy.
 
-### Random Forest
+5. ### Random Forest
 
 Random Forest classifier is utilized with grid search to find the optimal combination of parameters for enhanced precision.
 
-### AdaBoost Classifier
+6. ### AdaBoost Classifier
 
 AdaBoost classifier is explored with hyperparameter tuning to enhance its performance in customer classification.
 
-### Gradient Boosting Classifier
+7. ### Gradient Boosting Classifier
 
 The Gradient Boosting classifier is employed with grid search for optimal hyperparameter selection.
 
