@@ -94,31 +94,31 @@ These preprocessing steps aimed to enhance the dataset's quality, create meaning
 
 ## Algorithms Used
 
-1. ### Support Vector Machine (SVM)
+### 1. Support Vector Machine (SVM)
 
 The project begins with the Support Vector Classifier (SVC). Hyperparameter tuning is conducted using grid search to enhance classifier performance.
 
-2. ### Logistic Regression
+### 2. Logistic Regression
 
 Utilizing logistic regression, the project explores hyperparameter tuning for optimal model performance.
 
-3. ### k-Nearest Neighbors (kNN)
+### 3. k-Nearest Neighbors (kNN)
 
 The kNN classifier is employed with grid search to find the optimal number of neighbors for enhanced performance.
 
-4. ### Decision Tree
+### 4. Decision Tree
 
 Decision tree classification is implemented with hyperparameter tuning to improve accuracy.
 
-5. ### Random Forest
+### 5. Random Forest
 
 Random Forest classifier is utilized with grid search to find the optimal combination of parameters for enhanced precision.
 
-6. ### AdaBoost Classifier
+### 6. AdaBoost Classifier
 
 AdaBoost classifier is explored with hyperparameter tuning to enhance its performance in customer classification.
 
-7. ### Gradient Boosting Classifier
+### 7. Gradient Boosting Classifier
 
 The Gradient Boosting classifier is employed with grid search for optimal hyperparameter selection.
 
