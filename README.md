@@ -62,14 +62,13 @@ This dataset comprises eight variables, each representing distinct aspects of th
 
 ### 2. Customer Segmentation:
    - Utilized the KMeans clustering algorithm for customer segmentation based on their purchasing behavior.
-   - Created 5 customer segments (clusters) to classify customers into distinct categories.
-   - To Further understand the Clusters and categorize them, silouhette scores and Word Cloud are implemented.
+   - Created 11 customer segments (clusters) to classify customers into distinct categories.
+   - To Further understand the Clusters and categorize them, silouhette scores and PCA are implemented.
    - The provided image illustrates silhouette scores, serving as a visual representation of the categorization of clusters based on their respective silhouettes.
-   ![silouhette scores](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/bf942d0a-a298-4b60-9d26-41f67c07e8fa)
-   - With the establishment of five clusters, a word cloud has been generated to visually highlight the most prevalent words within each cluster.
-   ![Word Cloud](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/ccae8a7d-e0d1-437a-8945-c0d4f1074108)
-
-
+   ![image](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/abf4579f-f3a0-476d-9b61-a7cea9879034)
+   - Furthermore, PCA is applied to reduce dimensionality to 6 components and add cluster labels to the transformed data.
+   - And a ScatterPlot is drawn to represent the visual relationship between PCA components.
+   ![image](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/285c9a11-ce26-429c-bac4-8202b6a6f583)
 
 ### 3. Feature Creation:
    - Introduced new features to capture essential information:
@@ -92,6 +91,10 @@ This dataset comprises eight variables, each representing distinct aspects of th
 ### Data Encoding:
 
    - The dataset primarily consists of numerical features, and no explicit data encoding was necessary for the chosen machine learning models.
+   - Though the application of StandardScaler was employed to enhance the performance of the machine learning models and ensure the consistency of data points.
+   - A selected matrix with features (`'count','min','max','mean','categ_0','categ_1','categ_2','categ_3','categ_4'`) were standerdized by applying the StandardScaler
+   - Following the application of StandardScaler on the data matrix, Principal Component Analysis (PCA) was conducted. The accompanying image below illustrates a plot featuring both a step plot depicting cumulative explained variance and a bar plot showcasing the individual explained variance for each principal component.
+   ![PCA](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/34af0019-1715-4259-a4ba-2d3defa49df2)
 
 These preprocessing steps aimed to enhance the dataset's quality, create meaningful features, and align the data with the project's objectives, facilitating effective machine learning model training and evaluation.
 
