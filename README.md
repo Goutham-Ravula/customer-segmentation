@@ -62,7 +62,14 @@ This dataset comprises eight variables, each representing distinct aspects of th
 
 ### 2. Customer Segmentation:
    - Utilized the KMeans clustering algorithm for customer segmentation based on their purchasing behavior.
-   - Created 11 customer segments (clusters) to classify customers into distinct categories.
+   - Created 5 customer segments (clusters) to classify customers into distinct categories.
+   - To Further understand the Clusters and categorize them, silouhette scores and Word Cloud are implemented.
+   - The provided image illustrates silhouette scores, serving as a visual representation of the categorization of clusters based on their respective silhouettes.
+   ![silouhette scores](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/bf942d0a-a298-4b60-9d26-41f67c07e8fa)
+   - With the establishment of five clusters, a word cloud has been generated to visually highlight the most prevalent words within each cluster.
+   ![Word Cloud](https://github.com/Goutham-Ravula/customer-segmentation/assets/136582429/ccae8a7d-e0d1-437a-8945-c0d4f1074108)
+
+
 
 ### 3. Feature Creation:
    - Introduced new features to capture essential information:
